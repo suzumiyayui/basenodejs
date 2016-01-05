@@ -1,6 +1,6 @@
   var mysql = require('mysql');
-  var DB_DATABASE = 'cj_168';//数据库名
-  var DB_TABLE = 'net_log';//表名
+  var DB_DATABASE = 'x';//数据库名
+  var DB_TABLE = 'x';//表名
 
   
   function handleError (err) {
@@ -16,9 +16,9 @@
    
   function connect () {
 	  client = mysql.createConnection({  
-	      host : 'localhost',  
-	      user : 'root',  
-	      password : '!@#$%^'
+	      host : 'x',  
+	      user : 'x',  
+	      password : 'x'
 	    	  
 	  })
 	  client.connect(handleError);
